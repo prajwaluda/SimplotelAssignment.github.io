@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigate{
+   background-color: rgb(248, 102, 102);
+   width: 100%;
+   height: 50px;
+   align-items: center;
+   display: flex;
+}
+
+.navigate-2{
+   position: relative;
+   width: 90%;
+   display: flex;
+   margin: auto;
+   justify-content: space-between;
+}
+
+.but{
+    color: black;
+    border: none;
+    background: none;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.but:hover{
+    color: pink;
+}
+
+.menu-image{
+    /* border: 1px solid red; */
+    position: relative;
+    height: 24px;
+}
+
+.main-content{
+    background-image: linear-gradient(to right, rgb(240, 240, 185), rgb(166, 86, 166));
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    height: 535px;
+}
+.content0{
+    position:relative;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.content1{
+    position: relative;
+    margin: auto;
+    height: 100%;
+    justify-content: space-around;
+    display: inline-flex;
+    width: 50%;
+}
+.heading{
+    letter-spacing: 2px;
+    top: 20px;
+    padding: 1.3rem;
+    margin: auto;
+    display: block;
+    width:100%;
+    position: relative;
+    font-family: sans-serif;
+}
+.info{
+    top: 20px;
+    position: relative;
+    padding: 1.3rem;
+    margin: auto;
+    font-size: 15px;
+    display: block;
+    width:100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.clickbut{
+    margin: 1.3rem;
+    background-color:rgb(248, 102, 102) ;
+    border: none;
+    font-size: 15px;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* top: 0px; */
+}
+.clickbut:hover{
+    background-color: pink;
+}
+.content2{
+    display: inline-flex;
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.image1{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+
+.page2{
+    width: 100%;
+    display: inline-flex;
+    position: relative;
+    top: 10px;
+    height: 585px;
+    background-image: linear-gradient(to right, rgb(240, 240, 185), rgb(166, 86, 166));
+}
+
+.left{
+    align-items: center;
+    width:50%;
+    position:relative;
+    /* border: 2px solid green; */
+}
+.images{
+    top: 50px;
+    /* border: 2px solid black; */
+    position: relative;
+    width:90%;
+    height: 80%;
+    margin: auto;
+    gap: 2px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-flex;
+    position: relative;
+    flex-wrap: wrap;
+    gap:2px;
+    width:47%;
+    height: 97%;
+}
+.img2{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-flex;
+    position: relative;
+    width:47%;
+    height: 97%;
+    gap: 5px;
+}
+
+.imgt1{
+    position: relative;
+    width: 100%;
+    height:50%;
+}
+.imgt2{
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    height:100%;
+}
+.right{
+    align-items: center;
+    width:50%;
+    position:relative; 
+}
+.info2{
+    font-family: sans-serif;
+    position: relative;
+    top:30%;
+    margin: auto;
+    background-color:rgb(248, 102, 102) ;
+    width:60%;
+    height:40%;
+}
+.smhead{
+    padding-left: 5%;
+}
+
+@media screen  and (max-width:480px) {
+    .main-content{
+        height: 615px;
+    }
+    .content1{
+        position: absolute;
+        height: 49%;
+        justify-content: space-around;
+        display: inline-flex;
+        width: 100%;
+        top:51%;
+    }
+    .content2{
+        position: absolute;
+        display: inline-flex;
+        height: 49%;
+        width: 100%;
+    }
+    .right{
+        position: absolute;
+        width:100%;
+        height: 50%;
+        top: 50%;
+    }
+    .left{
+        position: absolute;
+        width:100%;
+        height: 50%;
+    }
+    .but{
+        font-size:xx-small;
+    }
+    .heading{
+        letter-spacing: 1px;
+        top: 0px;
+        padding: 1.2rem;
+        font-size: large;
+    }
+    .info{
+        padding:0rem;
+        padding-left: 1.3rem;
+        top:0px;
+        font-size: 10px;
+    }
+    .clickbut{
+        margin: 1.3rem;
+        font-size: 10px;
+        width: 113px;
+        height: 30px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        top: 10px;
+    }
+    .images{
+        top: 100px;
+        height: 60%;
+        gap: 1px;
+    }
+    .page2{
+        height: 665px;
+    }
+    .info2{
+        top:30%;
+        height: 50%;
+    }
+    .smhead{
+        font-size: medium;
+    }
+    .menu-image{
+        height: 15px;
+    }
+}
+@media screen and (max-width:910px) and (min-width:481px){
+    .but{
+        font-size:small;
+    }
+    .heading{
+        letter-spacing: 1px;
+        top: 0px;
+        padding: 1.2rem;
+        font-size: large;
+    }
+    .info{
+        padding:0rem;
+        padding-left: 1.3rem;
+        top:0px;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:1370px) and (min-width:912px) {
+    .but {
+        font-weight: bolder;
+    }
+    
+    .main-content{
+        height: 620px;
+    }
+    .page2{
+        top:40px;
+        height: 660px;
+    }
+}
