@@ -90,6 +90,7 @@
 }
 .clickbut:hover{
     background-color: pink;
+    box-shadow: 5px 5px rgb(248, 102, 102);
 }
 .content2{
     display: inline-flex;
