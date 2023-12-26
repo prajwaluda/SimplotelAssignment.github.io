@@ -152,13 +152,11 @@
 }
 
 .imgt1{
-    position: relative;
     width: 100%;
     height:50%;
 }
 .imgt2{
     display: inline-flex;
-    position: relative;
     width: 100%;
     height:100%;
 }
