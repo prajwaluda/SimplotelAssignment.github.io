@@ -121,7 +121,6 @@
 }
 .images{
     top: 50px;
-    /* border: 2px solid black; */
     position: relative;
     width:90%;
     height: 80%;
@@ -133,28 +132,32 @@
 }
 
 .img1{
-    margin-top: auto;
-    margin-bottom: auto;
+    justify-content: space-between;
     display: inline-flex;
     position: relative;
     flex-wrap: wrap;
-    width:47%;
-    height: 97%;
+    width:49%;
+    height: 100%;
 }
 .img2{
     margin-top: auto;
     margin-bottom: auto;
     display: inline-flex;
-    position: relative;
-    width:47%;
-    height: 97%;
+    width:49%;
+    height: 100%;
 }
 
 .imgt1{
     width: 100%;
-    height:50%;
+    height:49%;
 }
 .imgt2{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height:49%;
+}
+.imgt3{
     display: inline-flex;
     width: 100%;
     height:100%;
