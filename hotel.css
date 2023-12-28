@@ -138,7 +138,6 @@
     display: inline-flex;
     position: relative;
     flex-wrap: wrap;
-    gap:2px;
     width:47%;
     height: 97%;
 }
